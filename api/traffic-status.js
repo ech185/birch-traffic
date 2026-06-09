@@ -1,10 +1,10 @@
 export default function handler(req, res) {
   res.status(200).json({
-    metlife: "traffic-normal",
-    fortlee: "traffic-heavy",
-    ewr: "traffic-slow",
-    secaucus: "traffic-normal",
-    timessquare: "traffic-slow"
+metlife: "traffic-heavy",
+fortlee: "traffic-heavy",
+ewr: "traffic-heavy",
+secaucus: "traffic-heavy",
+timessquare: "traffic-heavy"
   });
 }
 
